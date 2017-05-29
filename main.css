@@ -1,0 +1,35 @@
+li{
+  font-style: oblique;
+  opacity: .6;
+  color: white;
+}
+.author{
+  text-align: right;
+  opacity: .6;
+  font-style: oblique;
+  font-size: x-large;
+
+}
+body{
+  background-image: url(./images/bookcover.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+
+}
+.quoteContainer{
+  margin-bottom: 130px;
+  text-align: center;
+  font-size: xx-large;
+  width: 100%;
+  background: rgba(152,152,152, 0.7);
+  opacity: .6;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+.quoteID{
+  text-align: left;
+  font-size: x-large;
+}
