@@ -1,6 +1,6 @@
 // same-origin policy solution
 (function() {
-  var quoteAPI = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=3&callback=";
+  var quoteAPI = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=3&callback=";
   $.getJSON( quoteAPI, {
     format: "json"
   })
